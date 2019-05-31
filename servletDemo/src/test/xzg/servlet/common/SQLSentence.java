@@ -1,7 +1,7 @@
 package test.xzg.servlet.common;
 /**
- * title:常量接口类
- * @author king
+ * title:
+ * @author xiezg
  *
  */
 public interface SQLSentence {
