@@ -3,7 +3,7 @@ import java.util.List;
 import test.xzg.servlet.entity.MyTable;
 /**
  * title:业务接口
- * @author king
+ * @author xiezengguang
  *
  */
 public interface MyInterface {

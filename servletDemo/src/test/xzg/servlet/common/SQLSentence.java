@@ -2,7 +2,7 @@ package test.xzg.servlet.common;
 /**
  * title:
  * @author xiezg
- *
+ * 
  */
 public interface SQLSentence {
            String oinsert="insert into mytable values(mytab_seq.nextval,?,?,?,?,?)";

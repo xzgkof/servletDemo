@@ -1,8 +1,11 @@
 package test.xzg.servlet.common;
-/*
- *分页工具类
+
+/**
+ *@author: xiezengguang
+ *@deprecated 分页工具类  date:2019/7/4
  */
 public class PageBean {
+	
          private int curPage; //页码
          private int rowPrePage; //每页显示的条数
          private int maxPage;//总页码

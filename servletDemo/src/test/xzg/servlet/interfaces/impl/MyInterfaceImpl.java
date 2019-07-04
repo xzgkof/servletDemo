@@ -20,6 +20,7 @@ public class MyInterfaceImpl implements MyInterface{
     private  ResultSet  rs = null;
     
     public MyInterfaceImpl(){}
+    
     //修改
 	public boolean mytabUpdate(MyTable t) {
 		// TODO Auto-generated method stub
@@ -42,6 +43,7 @@ public class MyInterfaceImpl implements MyInterface{
 		}
 		return flag;
 	}
+	
     //添加
 	public boolean mytableAdd(MyTable t) {
 		boolean flag = true;
@@ -63,6 +65,7 @@ public class MyInterfaceImpl implements MyInterface{
 		}
 		return flag;
 	}
+	
     //删除
 	public boolean mytableDelete(int id) {
 		boolean flag = true;
@@ -84,6 +87,7 @@ public class MyInterfaceImpl implements MyInterface{
 		// TODO Auto-generated method stub
 		return false;
 	}
+	
 	//查询总记录
 	public int queryCount() {
 		int count =0;
@@ -102,6 +106,7 @@ public class MyInterfaceImpl implements MyInterface{
 		}
 		return count;
 	}
+	
 	//分页查询
 	public ArrayList<MyTable> queryInfo(int curPage, int rowsPrePage) {
 		// TODO Auto-generated method stub
